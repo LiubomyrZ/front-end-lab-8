@@ -6,9 +6,6 @@ header{
     background: url("../img/apples.jpg") no-repeat center center;
     background-size: cover;
     max-width: 100%;
-   /* background-repeat: no-repeat;
-    height: 623px;
-     padding-bottom:90px; */
 }
 .flex{
     display: flex;
@@ -225,8 +222,7 @@ footer div, .footerNav{
     font-size: 1.1em;
 }
 .grid div{
-    border: 1px solid #FFF;  
-    
+    border: 1px solid #FFF;     
 }
 #grid1 {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.01)65%, rgba(0, 0, 0, 0.1)70%, rgba(0, 0, 0, 0.5)), url("../img/sample.jpg") no-repeat center center;
@@ -263,11 +259,3 @@ footer div, .footerNav{
     margin-top: 10px;
     margin-right: 10px;
 }
-/*.gridS {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 30px;
-    grid-auto-rows: minmax(18vw, auto);
-    margin-top: 30px; 
-    
-}*/
