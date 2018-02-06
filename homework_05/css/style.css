@@ -176,11 +176,16 @@ footer a:hover{
     .banner span{
         background-color: #39c2d7;
         text-align: left;
-        margin: 20px auto 200px;
+        margin: 20px 10px 200px 10px;
+        padding: 5px 10px;
     }
 
     .sideSpacing{
         padding: 0px;
+    }
+
+    .news{
+        padding: 20px 20px;
     }
 
     header{
