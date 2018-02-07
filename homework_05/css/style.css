@@ -56,7 +56,7 @@ footer a:hover{
     font-size: 38px;
     color: #fff;
     display: inline-block;
-    margin: 50px 0 100px;
+    margin: 60px 0 130px;
     width: 315px;
 
 }
@@ -94,6 +94,7 @@ footer a:hover{
     header img{
         margin: 0 auto;
     }
+    
     .banner span {
         font-size: 30px;
         color: #fff;
@@ -148,6 +149,7 @@ footer a:hover{
     }
     .banner span{
         display: block;
+        align-content: flex-end;
     }
 
     .sidefooter{
@@ -176,8 +178,9 @@ footer a:hover{
     .banner span{
         background-color: #39c2d7;
         text-align: left;
-        margin: 20px 10px 200px 10px;
+        margin: 170px 20px 20px 20px;
         padding: 5px 10px;
+        width: 100%;
     }
 
     .sideSpacing{
@@ -197,10 +200,11 @@ footer a:hover{
     }
     nav a{
         display: block;
-        padding: 5px 10px;
-        background-color: #cccccc;
+        padding: 10px 10px;
+        background-color: #ececec;
         margin-right: 0px;
         text-align: left;
-        border-top: 1px solid #333;
+        border-top: 1px solid #cccccc;
     }
+
 }
