@@ -8,7 +8,7 @@ function isSmaller(x, y){
     
     if (x===y){
         return false;
-      }
+    }
     
     else {var rezult = !isBigger(x, y);
         return rezult;

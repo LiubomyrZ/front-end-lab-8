@@ -1,9 +1,12 @@
-function getClosestToZero(){
-    var arr = [];
-    for( var i = 0; i < arguments.length; i++){
-      arr[i] = Math.abs(arguments[i]);    
+function getClosestToZero() {
+    var closestToZero = arguments[0];
+
+    for (var i = 0; i < arguments.length; i++) {
+		if (Math.abs(closestToZero) > Math.abs(arguments[i])) {
+			closestToZero = arguments[i];
+		}
     }
-    return  Math.min.apply(Math, arr);
-  }
-  console.log(getClosestToZero(4, -6, 2));
-  
+    
+    return  closestToZero;
+}
+console.log(getClosestToZero(-4, 4, -2, 2));
