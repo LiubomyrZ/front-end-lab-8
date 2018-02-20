@@ -5,5 +5,3 @@ function getTransformedArray(arr, transformFunction) {
     });
     return transformedArray;
 }
-
-//console.log(getTransformedArray([1,2,3], function(el){return ++el;}));
