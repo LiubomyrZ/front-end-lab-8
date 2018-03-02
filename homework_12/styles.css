@@ -1,0 +1,82 @@
+/* Your styles goes here */
+body{
+    font-family: serif;
+    background-color: #1C1C1F;
+    color: #CBC3A8;
+}
+
+a{
+    text-decoration: none;
+    color: #A19E86;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tankSection{
+    padding: 10px;    
+}
+
+.tankSection:hover{
+    background-color: #2C2C2C;
+    cursor: pointer;
+}
+
+.thumbnailImg{
+    width: 180px;
+}
+
+.tank-info{
+    display: flex;
+}
+
+.tank-characteristic{
+    flex: 1;
+}
+
+.tank-characteristic table{
+    width: 100%;
+    border: 1 px solid 
+}
+
+.info{
+    text-align: center;
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.name{
+    color: #D7D2B7;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.level{
+    font-weight: bold; 
+}
+
+/* запитати  в Юри чи так має бути */
+.flag{
+    height: 13px;
+}
+
+table{
+    border-collapse: collapse;
+    color: #D7D2B7;
+}
+
+td, th {
+    border: solid 1px #A19E86;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.toUppercase{
+    text-transform: uppercase; 
+}
+
